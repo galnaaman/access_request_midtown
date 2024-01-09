@@ -5,7 +5,7 @@ from telegram import Bot
 from telegram.error import TelegramError
 
 # Replace these with your bot's token and your chat ID
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN","6671561034:AAE-I-eUsf81XsIBup_wVzpn7wbRecEMAnk")
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN","")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID","729712388")
 
 bot = Bot(token=TELEGRAM_BOT_TOKEN)
